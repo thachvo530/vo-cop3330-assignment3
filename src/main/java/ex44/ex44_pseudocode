@@ -1,0 +1,44 @@
+start main
+
+ask user for item
+scan in user input
+call parse
+
+end main
+
+start parse
+
+create parse
+parse input file
+create JSONobject
+use JSONobject to extract products and return JSONarray of products
+
+end parse
+
+start productFinder
+
+initialize string
+initialize sentinel variable to 0
+
+while (sentinel is not equal to 1){
+for(loop as long as i is less than size of JSONarray){
+    Place JSONarray index of i into JSONobject
+    put "name" into string
+    if (user input is equal to string){
+       print out name
+       print out price
+       print out quantity
+       set sentinel variable to 1
+       }
+    }
+
+    if(sentinel is equal to 0){
+    output failure statement
+    prompt user input
+    }
+}
+
+return name;
+
+end productFinder
+

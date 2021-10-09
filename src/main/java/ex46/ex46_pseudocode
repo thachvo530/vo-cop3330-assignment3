@@ -1,0 +1,48 @@
+start main
+
+scan in input file
+create treemap
+create arraylist for integer and string
+call countFreq
+call arrayListtoMapandPrint
+
+end main
+
+start countFreq
+
+while(scan has input)
+    store word into string
+    if (arraylist contains word){
+        add 1 to counter
+        }
+    else{
+        put word into arraylist
+        set counter to 1
+        }
+
+    close
+
+end countFreq
+
+start arrayListoMapandPrint
+
+create treemap
+for (i is less than size of words arraylist)
+    put words and count number into map
+
+create list
+convert map to list
+compare values in list in descending order
+
+for (iterate through list){
+    print out word
+    assign list value to temp variable
+    }
+    for (i is less than temp value){
+        print out asterisk
+        }
+
+return
+
+end arrayListtoMapandPrint
+

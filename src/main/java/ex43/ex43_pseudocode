@@ -1,0 +1,38 @@
+start main
+
+scan in input
+create string to store directory
+call createWebsite
+call js
+call css
+
+end main
+
+start createWebsite
+
+create file
+if(file created){
+    print out directory
+    write index.html
+    add author and sitename in index.html
+    close
+    print out directory
+    }
+
+end createWebsite
+
+start js
+
+if (user inputs y or Y)
+    create js folder
+
+end js
+
+start css
+
+if (user inputs y or Y)
+    create css folder
+
+end css
+
+

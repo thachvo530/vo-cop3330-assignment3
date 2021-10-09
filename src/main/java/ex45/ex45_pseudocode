@@ -1,0 +1,27 @@
+main start
+
+scan in input file
+ask user for output file name
+
+call for createOutput function
+
+main end
+
+
+createOutput start
+
+write output file
+declare local variables
+while (input file has another token){
+    read lines
+    replace utilize with use
+    write modified line to output file
+    }
+
+close scanner
+close output
+return string
+
+createOutput end
+
+

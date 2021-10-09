@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class websiteGen
+{
+    + +main()
+    + +createWebsite()
+    + +js()
+    + +css()
+}
+
+@enduml

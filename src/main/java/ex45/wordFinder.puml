@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class wordFinder
+{
+    + +main()
+    + +createOutput()
+}
+@enduml

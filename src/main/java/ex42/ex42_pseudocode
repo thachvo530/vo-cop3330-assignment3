@@ -1,0 +1,17 @@
+start main
+
+scan in input file
+print out format
+call printEmployee
+
+end main
+
+start printEmployee
+
+while(input has another token){
+    assign string to next line
+    store each line in string array
+    print out information
+    }
+
+end printEmployee

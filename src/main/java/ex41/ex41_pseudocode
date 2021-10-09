@@ -1,0 +1,30 @@
+start main
+
+scan in input
+create arraylist to store names
+call createNameList function
+sort names
+close scan
+call output function
+
+end main
+
+start createNameList
+
+while there is a next line in input
+    add names into arraylist
+
+
+end createNameList
+
+start output
+
+create file to write output
+print out format
+
+for (i is less than size of arraylist)
+    print out names
+
+close scan
+
+end output
