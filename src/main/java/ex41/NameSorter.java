@@ -36,6 +36,7 @@ public class NameSorter {
 
     }
 
+    // places name into array list
     public static void createNameList(Scanner scan, ArrayList<String> Names)
     {
         // loops until next line
@@ -47,6 +48,7 @@ public class NameSorter {
 
     }
 
+    // outputs names
     public static void output(ArrayList<String> Names) throws IOException
     {
         // creates output file

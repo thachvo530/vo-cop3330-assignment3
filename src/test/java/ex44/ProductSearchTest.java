@@ -41,14 +41,15 @@ class ProductSearchTest {
 
         JSONParser parser = new JSONParser();
         Scanner scan = new Scanner(System.in);
+        String input = "Thing";
 
         Object obj = parser.parse(new FileReader("src/main/java/ex44/exercise44_input.json"));
 
         JSONObject jsonObject = (JSONObject) obj;
         JSONArray product = (JSONArray) jsonObject.get("products");
 
-        String name = ProductSearch.findProduct("Doodad", scan, product);
+        String name = ProductSearch.findProduct(input, scan, product);
 
-        assertEquals("Doodad", name);
+        assertEquals("Thing", name);
     }
 }

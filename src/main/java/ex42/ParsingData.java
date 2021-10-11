@@ -26,6 +26,7 @@ public class ParsingData {
 
     }
 
+    // prints employees and information
     public static void printEmployees(Scanner scan)
     {
         // loops as long as scan has another token
